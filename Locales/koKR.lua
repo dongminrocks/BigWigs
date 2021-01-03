@@ -16,9 +16,9 @@ L.warmup_desc = "우두머리와의 전투가 시작되기 까지 시간입니�
 L.already_registered = "|cffff0000경고:|r |cff00ff00%s|r (|cffffff00%s|r)|1은;는; 이미 BigWigs 내에 모듈로 존재합니다, 하지만 무엇인가 다시 등록하려고 시도했습니다. 이는 일반적으로 몇몇 애드온 업데이터 오류로 인해 애드온 폴더 내에 이 모듈의 사본을 가지고 있다는 것을 의미합니다. 설치된 모든 BigWigs 폴더를 삭제한 후 처음부터 다시 설치하는 것을 권장합니다."
 --L.testNameplate = "Target detected, creating a test nameplate bar over target nameplate. |cFF33FF99This feature is rarely used, is usually just 1 bar, and is needed to keep track of cooldowns when fighting multiple bosses/ads that cast the same spell.|r"
 
--- Loader / Options.lua
---L.classicWarning1 = "|cFF33FF99BigWigs|r: You're using the wrong version of BigWigs on a classic server."
---L.classicWarning2 = "|cFF33FF99BigWigs|r: Please install the classic version of BigWigs."
+ Loader / Options.lua
+L.classicWarning1 = "|cFF33FF99BigWigs|r: 클래식 서버에서 잘못된 버젼의 빅윅을 쓰고 있습니다."
+L.classicWarning2 = "|cFF33FF99BigWigs|r: 빅윅 클래식 버젼을 설치하십시오."
 L.officialRelease = "당신은 BigWigs %s (%s)의 공식 배포 버전을 실행 중입니다"
 L.alphaRelease = "당신은 BigWigs %s (%s)의 알파 버전을 실행 중입니다"
 L.sourceCheckout = "당신은 저장소로부터 직접 가져온 BigWigs %s의 소스를 실행 중입니다."
