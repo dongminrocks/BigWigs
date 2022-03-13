@@ -1,9 +1,9 @@
 local L = BigWigs:NewBossLocale("Vigilant Guardian", "koKR")
 if not L then return end
 if L then
-	-- L.sentry = "Tank Add"
-	-- L.materium = "Small Adds"
-	-- L.shield = "Shield" -- Global locale canidate?
+	 L.sentry = "탱 쫄"
+	 L.materium = "작은 쫄"
+	 L.shield = "방벽" -- Global locale canidate?
 end
 
 L = BigWigs:NewBossLocale("Skolex, the Insatiable Ravener", "koKR")
@@ -33,8 +33,8 @@ if L then
 	L.rings_enrage = "후광 (광폭)"
 	L.ring_count = "후광 (%d/%d)"
 
-	--L.custom_on_ring_timers = "Individual Halo Timers"
-	--L.custom_on_ring_timers_desc = "Disintegration Halo triggers a set of rings, this will show bars for when each of the rings starts moving. Uses settings from Disintegration Halo."
+	L.custom_on_ring_timers = "개별 후광 타이머Individual Halo Timers"
+	L.custom_on_ring_timers_desc = "분해의 후광이 시작되면 고리가 순차적으로 옵니다. 이 옵션은 각 후광이 언제 이동하는지에 대한 바를 표시해 줍니다. 분해의 후광의 설정을 사용."
 
 	L.shield_removed = "%s %.1f초 후 제거됨" -- "Shield removed after 1.1s" s = seconds
 end
@@ -53,7 +53,7 @@ L = BigWigs:NewBossLocale("Lihuvim, Principal Architect", "koKR")
 if L then
 	L.protoform_cascade = "구슬 조심"
 	L.cosmic_shift = "넉백"
-	--L.cosmic_shift_mythic = "Shift: %s"
+	L.cosmic_shift_mythic = "넉백: %s"
 	L.unstable_mote = "불안정한 티끌"
 	L.mote = "티끌"
 
