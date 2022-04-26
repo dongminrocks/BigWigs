@@ -6,8 +6,8 @@ end
 
 L = BigWigs:NewBossLocale("Skolex, the Insatiable Ravener", "koKR")
 if L then
-	--L.custom_on_stop_timers = "Always show ability bars"
-	--L.custom_on_stop_timers_desc = "Skolex can delay its abilities. When this option is enabled, the bars for those abilities will stay on your screen."
+	L.custom_on_stop_timers = "항상 능력 바 표시Always show ability bars"
+	L.custom_on_stop_timers_desc = "스콜렉스의 능력은 미뤄질 수 있습니다. 이 옵션이 활성화되면, 해당 능력들을 표시하는 바가 화면에 남아있습니다."
 
 	L.tank_combo_desc = "기력 100일때 균열 아귀/난도질 타이머."
 end
@@ -16,7 +16,7 @@ L = BigWigs:NewBossLocale("Artificer Xy'mox v2", "koKR")
 if L then
 	L.sparknova = "초광속 불꽃 회오리" -- Hyperlight Sparknova
 	L.relocation = "탱 폭탄" -- Glyph of Relocation
-	--L.relocation_count = "%s S%d (%d)" -- Tank Bomb S1 (1) // Tank Bomb (stage)(count)
+	L.relocation_count = "%s %d 페이즈 (%d번째)" -- Tank Bomb S1 (1) // Tank Bomb (stage)(count)
 	L.wormholes = "차원 균열" -- Interdimensional Wormholes
 	L.wormhole = "차원 균열" -- Interdimensional Wormhole
 	L.rings = "%d 페이즈 고리" -- Rings S1 // Forerunner Rings Stage 1/2/3/4
